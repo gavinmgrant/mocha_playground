@@ -21,7 +21,7 @@ describe('Divide function', () => {
 
         // set up the function call
         const fn = () => {
-            divide (a, b)
+            divide(a, b)
         };
 
         // assert that exception is thrown
