@@ -27,4 +27,8 @@ describe('Divide function', () => {
         // assert that exception is thrown
         expect(fn).to.throw();
     })
+
+    it('should equal', () => {
+        expect(2).to.equal(2, '2 === 2');
+    })
 })
